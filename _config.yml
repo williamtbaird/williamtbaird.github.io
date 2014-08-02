@@ -8,10 +8,10 @@ permalink:        pretty
 # Setup
 title:            WilliamtBaird
 tagline:          'Blog'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> 
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a>'
 
 author:
-  name:           'William Baird'
+  name:           'Will Baird'
   url:            https://twitter.com/williamtbaird
 
 paginate:         5
