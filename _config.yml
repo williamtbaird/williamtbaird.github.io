@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            WilliamtBaird
+title:            Will Baird
 tagline:          'Blog'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a>'
+description:      'Rails/Angular/Node software writer'
 
 author:
   name:           'Will Baird'
