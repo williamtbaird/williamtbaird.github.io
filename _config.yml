@@ -1,35 +1,14 @@
-# Jekyll configuration
+name: Your New Jekyll Site
+description: Blogging about stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-name: My blog
-description: A jekyll theme
-
-# url is currently only used only for the RSS feed in feed.xml
-url: http://williamtbaird.github.io
-
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: /williamtbaird
-
-# This can be '' to hide the Github nav button
-github: 'williamtbaird/jekyll-clean'
-
-# Set this to your UA-# value, or '' to disable the block completely
-gaaccount: ''
-
-# Set this to your disqus shortname to enable comments. Note that the 'comments'
-# setting below must also be true. Individual posts can override 'comments' to
-# disable on a post-by-post basis
-disqus: ''
-comments: true
-
-permalink: /:year/:month/:title
-paginate: 3
-
-highlighter: pygments
 markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
 
-exclude: ['README.md', 'LICENSE']
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Your Name'
